@@ -1,0 +1,533 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Roboto:wght@100&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Roboto:wght@100&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Mono:wght@200..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:wght@100&family=Workbench&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Anton&family=Battambang:wght@100;300;400;700;900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Konkhmer+Sleokchher&family=Madimi+One&family=Noto+Serif+Khmer:wght@100..900&family=Oswald:wght@200..700&family=Pacifico&family=Pirata+One&family=Roboto:wght@100&family=Workbench&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 90%;
+  margin: auto;
+  height: 570vh;
+  
+}
+header{
+  width: 100%;
+  height: 70px;
+  
+  display: flex;
+  margin-top: 5px;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background-color:aliceblue;
+  box-shadow: 3px 3px 3px white;
+}
+header .left{
+  width: 45%;
+  height: 100%;
+  padding-left: 30px;
+}
+.left nav a{
+  font-size: 25px;
+  
+  text-align: center;
+  text-decoration: none;
+  margin: 15px;
+  color: blue;
+  font-family: "Kanit", sans-serif;
+}
+.mid{
+  width: 10%;
+  height: 100%;
+}
+.mid i{
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .right{
+  width: 45%;
+  height: 100%;
+  padding-right: 30px;
+}
+.right ul{
+  display: flex;
+  float: right;
+  margin: 13px;
+  list-style: none;
+}
+.right ul li a{
+  margin: 13px;
+  text-decoration: none;
+  font-size: 25px;
+  color: blue;
+  font-family: "Kanit", sans-serif;
+}
+.right  i{
+  font-size: 2rem;
+}
+
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: aliceblue;
+}
+
+.dropdown {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+.dropdown img{
+  width: 330%;
+  height: 330%;
+  position: relative;
+  inset: -15px;
+  border-radius: 50%;
+  background-color: aliceblue;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  
+  background-color: #f1f1f1;
+  min-width: 150px;
+  right: 5px;
+  
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+li .dropdown .dropdown-content a{
+  color: black;
+  
+  text-decoration: none;
+  display: block;
+  
+  width: 150px;
+  font-size: 13px;
+}
+
+li .dropdown .dropdown-content a i{
+  font-size: 1.2rem;
+  margin: 5px;
+}
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+.body{
+  width: 100%;
+  height: 100vh;
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+}
+.body .left{
+  width: 50%;
+  height: 100%;
+  background-color: blue;
+  position: relative;
+}
+.body .left img{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.body .left p{
+  font-size: 25px;
+  position: absolute;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.body .left h1{
+  font-family: "Pacifico", cursive;
+  position: absolute;
+  font-size: 6.5rem;
+  padding-left: 40px;
+  padding-top: 100px;
+  margin-top: 10px;
+  
+}
+.body .left .btn {
+  position: relative;
+  margin-top: 290px;
+  margin-left: 50px;
+  font-size: 17px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1em 2.5em;
+  display: inline-block;
+  border-radius: 6em;
+  transition: all .2s;
+  border: none;
+  font-family: inherit;
+  font-weight: 500;
+  color: white;
+  background-color: black;
+ }
+ 
+ .btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+ }
+ 
+ .btn::after {
+  background-color: #fff;
+ }
+ 
+ .btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+ }
+.body .right{
+  width: 50%;
+  height: 100%;
+  background-color: blueviolet;
+}
+.body .right img{
+  width: 100%;
+  height: 100%;
+}
+a:hover{
+  
+  opacity: .5;
+}
+a:active{
+  
+  border-bottom: 5px solid;
+  border-radius: 30px;
+}
+.under{
+  width: 100%;
+  height: 70vh;
+  display: grid;
+  place-items: center;
+
+}
+.under .box{
+  width: 80%;
+  height: 80%;
+}
+.under .box h1{
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+}
+.under .box p{
+  font-size: 23px;
+  color: gray;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.under .box button{
+  width: 125px;
+  height: 50px;
+  font-size: 15px;
+  background-color: black;
+  border-color: aqua;
+  color: white;
+  border-radius: 5px;
+}
+.under .box button:hover{
+  opacity: .8;
+  border-color: red;
+}
+.contain{
+  width: 100%;
+  height: 130vh;
+}
+.contain .top{
+  width: 100%;
+  height: 18%;
+  padding-top: 20px;
+}
+.top h1{
+  font-size: 4rem;
+  font-family: "Reddit Mono", monospace;
+}
+.contain .con-box{
+  width: 94%;
+  height: 80%;
+  margin-left: 3%;
+  
+  
+}
+.ler, .krum{
+  width: 100%;
+  height: 48%;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
+}
+.con-box .box1{
+  width: 24%;
+  height: 100%;
+  border: 3px;
+  box-shadow: 1px 1px 1px whitesmoke;
+}
+.box1 img{
+  width: 100%;
+  height: 80%;
+}
+.box1 img:hover{
+  width: 101%;
+  height: 82%;
+  opacity: .7;
+}
+.box1 a{
+  text-decoration: none;
+  color: black;
+}
+.box1 h5{
+  font-size: 18px;
+}
+.box1 p{
+  font-size: 18px;
+  margin-top: 5px;
+  color: grey;
+}
+.con-box2{
+  width: 100%;
+  height: 80vh;
+  margin-top: 100px;
+  position: relative;
+  
+}
+.con-box2 img{
+  width: 40%;
+  height: 85%;
+  position: absolute;
+  bottom: 40px;
+  
+}
+.text{
+  width: 85%;
+  height: 100%;
+  padding-left: 250px;
+  
+  padding-top: 100px;
+  margin-left: 15%;
+  background-color:lightpink;
+}
+.text h2{
+  font-family: "Reddit Mono", monospace;
+  font-size: 3rem;
+  margin-left: 17%;
+  text-align: start;
+}
+.text p i{
+  font-size: 2.5rem;
+}
+.text p{
+  width: 70%;
+  text-align: start;
+  font-size: 25px;
+  margin-left: 5%;
+  font-family: "Kanit", sans-serif;
+}
+.text button{
+  width: 125px;
+  height: 50px;
+  font-size: 15px;
+  background-color: black;
+  border-color: aqua;
+  color: white;
+  border-radius: 7px;
+  margin-left: 17%;
+}
+.text button:hover{
+  opacity: .8;
+  border-color: red;
+}
+.con-box3{
+  width: 100%;
+  height: 110vh;
+  display: grid;
+  place-items: center;
+}
+.con-box3 .smbox{
+  width: 90%;
+  height: 70%;
+  position: relative;
+}
+.smbox .first{
+  width: 100%;
+  height: 45%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.fbox{
+  width: 25%;
+  height: 100%;
+}
+.fbox img{
+  width: 100%;
+  height: 100%;
+}
+.txt{
+  width: 50%;
+  height: 100%;
+  padding-top: 20px;
+
+}
+.txt h3{
+  font-size: 4rem;
+  font-family: "Reddit Mono", monospace;
+}
+.txt p{
+  font-size: 25px;
+  font-family: "Kanit", sans-serif;
+}
+.sbox{
+  width: 25%;
+  height: 100%;
+}
+.sbox img{
+  width: 100%;
+  height: 100%;
+}
+.smbox .second{
+  width: 100%;
+  height: 45%;
+  margin-top: 10%;
+  
+  position: relative;
+}
+.second img{
+  width: 20%;
+  height: 100%;
+  margin-left: 40%;
+}
+.third{
+  width: 60%;
+  height: 35%;
+  margin-left: 20%;
+  position: absolute;
+  bottom: 140px;
+}
+.img1{
+  width: 25%;
+  height: 100%;
+
+}
+.img2{
+  width: 25%;
+  height: 100%;
+  float: right;
+}
+hr{
+  height: 3px;
+}
+.con-box4{
+  width: 90%;
+  margin-left: 5%;
+  height: 30vh;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.word1{
+  width: 20%;
+  height: 100%;
+}
+.word2{
+  width: 20%;
+  height: 100%;
+}
+.word3{
+  width: 20%;
+  height: 100%;
+}
+.word4{
+  width: 40%;
+  height: 100%;
+  margin-left: 10%
+}
+h5{
+  font-size: 25px;
+}
+p{
+  font-size: 17px;
+  font-family: "Raleway", sans-serif;
+  color: grey;
+  margin-top: 7px;
+}
+input{
+  width: 350px;
+  height: 40px;
+  border-color: aqua;
+  padding-left: 10px;
+}
+.word4 button{
+  width: 125px;
+  height: 50px;
+  font-size: 15px;
+  background-color: black;
+  border-color: aqua;
+  color: white;
+  border-radius: 7px;
+  
+}
+.word4 button:hover{
+  opacity: .8;
+  border-color: red;
+}
+footer{
+  width: 94%;
+  height: 15vh;
+  margin-left: 5%;
+  display: flex;
+  padding-top: 10px;
+  justify-content: space-between;
+}
+.mine{
+  width: 50%;
+  height: 100%;
+
+}
+.mine p{
+  font-size: 15px;
+  color: grey;
+}
+.icons{
+  width: 50%;
+  height: 100%;
+}
+.icons i{
+  font-size: 1.5rem;
+  color: grey;
+  float: right;
+  margin: 8px;
+}
